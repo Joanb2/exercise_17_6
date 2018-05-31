@@ -1,0 +1,39 @@
+body {
+	background-color: #161831;
+	text-align: center;
+	color: #EFEFF0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h1 {
+	margin-top: 150px;
+}
+
+label {
+	display: block;
+	padding: 10px;
+	font-size: 20px;
+}
+
+input {
+	display: block;
+	margin-left: 585px; 
+	background-color: inherit;
+	border: none;
+	border-bottom: 1px solid #EFEFF0;
+	color: #EFEFF0;
+	font-size: 15px;
+	text-align: center;
+	font-family: inherit;
+}
+
+input:focus {
+	outline-style: none;
+}
+
+button {
+	margin-top: 25px;
+	background-color: #EFEFF0;
+	color: #161831;
+	border: none;
+	font-family: inherit;
+}
