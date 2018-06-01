@@ -1,12 +1,9 @@
-var express = require('express');
-var app = express();
+const express = require('express');
+const app = express();
 
 app.set('view engine', 'pug');
 app.set('views', './views');
-app.use('/store', function(req, res, next){
-	console.log('jestem pośrednikiem przy żądaniu do /store');
-	next();
-});
+
 app.use(express.static('assets'));
 
 app.get('/', function(req, res){
